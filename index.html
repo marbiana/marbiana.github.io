@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио Марины Орловой — аналитика данных, автоматизация отчётности и ETL для e-commerce.">
+  <meta name="theme-color" content="#f3f0e8">
+  <title>Марина Орлова — аналитик данных</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="В начало страницы">МО<span>.</span></a>
+    <nav aria-label="Основная навигация">
+      <a href="#projects">Проекты</a>
+      <a href="#experience">Опыт</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">Аналитика данных · e-commerce · автоматизация</div>
+      <h1>Превращаю отчёты<br>в понятные решения<span>.</span></h1>
+      <p class="hero-copy">
+        Я Марина Орлова. Работаю на стыке бизнес-аналитики и инженерии данных:
+        собираю данные, проверяю расчёты и превращаю ручные операции в воспроизводимые процессы.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">Смотреть проекты</a>
+        <a class="button button-secondary" href="https://github.com/marbiana" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+
+      <dl class="signal-strip" aria-label="Ключевые компетенции">
+        <div><dt>Фокус</dt><dd>Marketplace analytics</dd></div>
+        <div><dt>Инструменты</dt><dd>Python · SQL</dd></div>
+        <div><dt>Подход</dt><dd>От метрики до решения</dd></div>
+      </dl>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">01 — Избранные кейсы</p>
+          <h2>Два проекта из реальных бизнес-задач</h2>
+        </div>
+        <p>Публичные версии используют синтетические данные и сохраняют логику исходных процессов.</p>
+      </div>
+
+      <article class="case-card case-card-dark">
+        <div class="case-number">01</div>
+        <div class="case-main">
+          <p class="case-label">Supply planning</p>
+          <h3>Планирование поставок на склады Wildberries</h3>
+          <p>
+            Расчёт рекомендуемых поставок по истории заказов, остаткам на складах,
+            товарам в пути и доступному запасу продавца.
+          </p>
+          <ul class="case-points">
+            <li>Запас в днях и целевая потребность</li>
+            <li>Распределение дефицитного запаса по приоритетам</li>
+            <li>Округление до палет и автоматические проверки</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>CLI</span><span>Tests</span></div>
+          <a class="case-link" href="https://github.com/marbiana/wb-supply-planner" target="_blank" rel="noreferrer">Открыть репозиторий <span>↗</span></a>
+        </div>
+        <div class="case-visual" aria-hidden="true">
+          <div class="visual-title">Supply flow</div>
+          <div class="flow-row"><span>01</span><strong>История заказов</strong><i></i></div>
+          <div class="flow-row"><span>02</span><strong>Остатки + транзит</strong><i></i></div>
+          <div class="flow-row"><span>03</span><strong>Лимиты и приоритеты</strong><i></i></div>
+          <div class="flow-result">План поставок <b>→</b></div>
+        </div>
+      </article>
+
+      <article class="case-card case-card-light">
+        <div class="case-number">02</div>
+        <div class="case-main">
+          <p class="case-label">Finance analytics</p>
+          <h3>Сверка финансового отчёта Wildberries</h3>
+          <p>
+            Пайплайн для расчёта продаж после возвратов, структуры расходов,
+            итоговой выплаты и поиска строк, требующих ручной проверки.
+          </p>
+          <ul class="case-points">
+            <li>Проверка структуры и уникальности строк</li>
+            <li>Расчёты в целых копейках без ошибок округления</li>
+            <li>Витрины по товарам, операциям и исключениям</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>Tests</span></div>
+          <a class="case-link" href="https://github.com/marbiana/wb-finance-analytics" target="_blank" rel="noreferrer">Открыть репозиторий <span>↗</span></a>
+        </div>
+        <div class="case-visual finance-visual" aria-hidden="true">
+          <div class="visual-title">Reconciliation</div>
+          <div class="metric"><span>Продажи</span><b>100%</b></div>
+          <div class="bar"><i style="--size: 100%"></i></div>
+          <div class="metric"><span>Расходы</span><b>контроль</b></div>
+          <div class="bar"><i style="--size: 62%"></i></div>
+          <div class="metric"><span>Исключения</span><b>проверка</b></div>
+          <div class="bar"><i style="--size: 28%"></i></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section compact-section" aria-labelledby="more-projects">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">02 — Практика</p>
+          <h2 id="more-projects">Другие проекты</h2>
+        </div>
+      </div>
+      <div class="project-grid">
+        <a href="https://github.com/marbiana/marketplace-customer-analytics" target="_blank" rel="noreferrer">
+          <span class="project-index">03</span><h3>Marketplace customer analytics</h3><p>Исследование поведения клиентов и аналитических метрик маркетплейса.</p><b>Открыть ↗</b>
+        </a>
+        <a href="https://github.com/marbiana/restaurant-data-warehouse" target="_blank" rel="noreferrer">
+          <span class="project-index">04</span><h3>Restaurant data warehouse</h3><p>Проектирование хранилища и подготовка данных для аналитики.</p><b>Открыть ↗</b>
+        </a>
+        <a href="https://github.com/marbiana/event-engagement-analytics" target="_blank" rel="noreferrer">
+          <span class="project-index">05</span><h3>Event engagement analytics</h3><p>Анализ активности пользователей и вовлечённости в события.</p><b>Открыть ↗</b>
+        </a>
+        <a href="https://github.com/marbiana/spark-geoanalytics" target="_blank" rel="noreferrer">
+          <span class="project-index">06</span><h3>Spark geoanalytics</h3><p>Обработка геоданных и аналитические расчёты с использованием Spark.</p><b>Открыть ↗</b>
+        </a>
+      </div>
+    </section>
+
+    <section class="section profile-section" id="experience">
+      <div>
+        <p class="kicker">03 — Профиль</p>
+        <h2>Бизнес-контекст<br>плюс техническая база</h2>
+      </div>
+      <div class="profile-copy">
+        <p class="lead">Более четырёх лет работаю с e-commerce и маркетплейсами. Понимаю не только код, но и решения, которые стоят за метриками.</p>
+        <div class="skill-columns">
+          <div><h3>Аналитика</h3><p>P&amp;L, юнит-экономика, маржинальность, оборачиваемость, ABC/XYZ, планирование поставок.</p></div>
+          <div><h3>Данные</h3><p>Python, SQL, PostgreSQL, Pandas, ETL, API, валидация и автоматизация отчётности.</p></div>
+          <div><h3>Инженерия</h3><p>Airflow, Docker, PySpark, Kafka, витрины данных и воспроизводимые пайплайны.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacts">
+      <p class="kicker">04 — Контакты</p>
+      <h2>Обсудим задачу<br>в данных?</h2>
+      <p>Открыта к позициям аналитика данных / BI-аналитика в e-commerce и задачам на стыке аналитики и ETL.</p>
+      <div class="contact-links">
+        <a class="button button-primary" href="https://hh.ru/resume/faeb7065ff1050e8f40039ed1f4b384d314846" target="_blank" rel="noreferrer">Резюме на hh.ru ↗</a>
+        <a class="button button-secondary" href="https://github.com/marbiana" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Марина Орлова</span>
+    <span>Data analytics · <span id="year">2026</span></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
